@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.img-logo {
+  width: 150px;
+}
+
+.menu1 {
+  list-style: none;
+  color: white;
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.menu1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu1 a:hover {
+  color: green;
+}
+
+.menu2 {
+  width: 50px;
+}
+
+.separador {
+  color: white;
+}
+
+.premium1 {
+  background-color: rgb(29, 117, 222);
+  color: white;
+  justify-content: center;
+  gap: 20px;
+  height: 480px;
+}
+
+.premium1 a {
+  color: white;
+}
+
+.begin {
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.plan {
+  align-items: center;
+  background-color: rgb(29, 117, 222);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.premium2 {
+  height: 600px;
+}
+
+.premium2-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.premium2-section article {
+  width: 20%;
+}
+
+.premium2-img {
+  width: 150px;
+}
+
+.premium2-titel {
+  text-align: center;
+}
+
+.mouth {
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+
+.premium3 {
+  background-color: #efefef;
+  height: 940px;
+}
+
+.premium3-titel {
+  text-align: center;
+}
+
+.premium3-description {
+  text-align: center;
+}
+
+.premium3-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 15px;
+}
+
+.tarjeta {
+  border: 2px 1px #000;
+  box-shadow: 2px 2px rgb(68, 68, 68);
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 10px;
+}
+.footer {
+  background-color: black;
+  height: 540px;
+}
+
+.avisos {
+  color: white;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.avisos a {
+  color: white;
+  text-decoration: none;
+}
+
+.info {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .menu1 {
+    display: none;
+  }
+  .premium2-section {
+    flex-direction: column;
+  }
+  .premium2-section article {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 480px) {
+  .menu2 {
+    display: none;
+  }
+  .premium3-section {
+    grid-template-columns: auto;
+    background-color: red;
+  }
+}

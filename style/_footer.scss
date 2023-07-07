@@ -1,0 +1,9 @@
+.footer{
+    &-title{
+        @include carFuente(helvetica, 50px, purple, 100px);
+    }
+
+    .menu{
+        @include cajasFlexibles();
+    }
+}

@@ -1,20 +1,11 @@
-*{
-    padding: 0;
-    margin: 0; 
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import "reset";
+@import "var";
+@import "mixin";
+@import "header";
+@import "main";
+@import "footer";
 
-.header{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    align-items: center;
-}
-
-.img-logo{
-    width: 150px;
-}
+/*
 
 .menu1{
     color: white;
@@ -165,3 +156,4 @@
         display: none;
     }
 } 
+*/
